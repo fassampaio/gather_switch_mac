@@ -1,0 +1,13 @@
+---
+# Host list
+# Host type depends on connection protocol
+# ssh - cisco_ios or cisco_nxos
+# telnet - cisco_ios_telnet
+
+hosts:
+  10.0.0.1: cisco_ios_telnet
+  10.0.0.2: cisco_ios_telnet
+  10.0.0.3: cisco_ios
+  10.0.0.4: cisco_ios
+  
+...
